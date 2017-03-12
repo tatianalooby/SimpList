@@ -13,6 +13,8 @@
 		DEDFF6A71E74D83900729573 /* SimpList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEDFF6A51E74D83900729573 /* SimpList.xcdatamodeld */; };
 		DEDFF6A91E74D83900729573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDFF6A81E74D83900729573 /* Assets.xcassets */; };
 		DEDFF6AC1E74D83900729573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDFF6AA1E74D83900729573 /* LaunchScreen.storyboard */; };
+		DEDFF6B41E74DFD700729573 /* CreateNewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFF6B31E74DFD700729573 /* CreateNewNoteViewController.swift */; };
+		DEEBF2CF1E7580B700E4631A /* Attach-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEBF2CE1E7580B700E4631A /* Attach-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEDFF6A81E74D83900729573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDFF6AB1E74D83900729573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDFF6AD1E74D83900729573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDFF6B31E74DFD700729573 /* CreateNewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewNoteViewController.swift; sourceTree = "<group>"; };
+		DEEBF2CE1E7580B700E4631A /* Attach-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attach-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				DEDFF69E1E74D83900729573 /* AppDelegate.swift */,
 				DEDFF6A01E74D83900729573 /* ViewController.swift */,
+				DEDFF6B31E74DFD700729573 /* CreateNewNoteViewController.swift */,
 				DEDFF6A21E74D83900729573 /* Main.storyboard */,
 				DEDFF6A81E74D83900729573 /* Assets.xcassets */,
 				DEDFF6AA1E74D83900729573 /* LaunchScreen.storyboard */,
 				DEDFF6AD1E74D83900729573 /* Info.plist */,
+				DEEBF2CE1E7580B700E4631A /* Attach-50.png */,
 				DEDFF6A51E74D83900729573 /* SimpList.xcdatamodeld */,
 			);
 			path = SimpList;
@@ -129,6 +135,7 @@
 				DEDFF6AC1E74D83900729573 /* LaunchScreen.storyboard in Resources */,
 				DEDFF6A91E74D83900729573 /* Assets.xcassets in Resources */,
 				DEDFF6A41E74D83900729573 /* Main.storyboard in Resources */,
+				DEEBF2CF1E7580B700E4631A /* Attach-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEDFF6A71E74D83900729573 /* SimpList.xcdatamodeld in Sources */,
+				DEDFF6B41E74DFD700729573 /* CreateNewNoteViewController.swift in Sources */,
 				DEDFF6A11E74D83900729573 /* ViewController.swift in Sources */,
 				DEDFF69F1E74D83900729573 /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +311,7 @@
 				DEDFF6B21E74D83900729573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
